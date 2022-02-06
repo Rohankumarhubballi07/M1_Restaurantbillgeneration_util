@@ -60,25 +60,25 @@
 
 
 
-     ## SWOT
+   ## SWOT
 
-     # 1.Strengths
+   # 1.Strengths
 
      * Easy for usage for both Customer and Restaurant officials.
      * The calculation of billing is easy.
      * GST can be added easily and the price will be updated.
 
-     # 2.Weakness
-     
+   # 2.Weakness
+
      * It's can't be accessed while the updation happening.
 
-     # 3.Opportunities
+   # 3.Opportunities
 
      * The price or menu can be updated by officials easily.
      * Efficiency is very high.
 
 
-     # 4.Threats
+   # 4.Threats
 
      * Advanced softwares are available in the market.
      * Customer cannot go back to change their priority of choosed items.
