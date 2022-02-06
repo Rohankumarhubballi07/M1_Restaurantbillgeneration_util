@@ -18,20 +18,20 @@
    * The gst will be considered while updating the price.
    * Exit the programme
 
-   ## 4 W's and  1 H's
+     ## 4 W's and  1 H's
 
 
     # 1.why
-    * It will help the customer by ordering the no of items in food at once and reduces the complexity.
-    * It is made for the user compatible and can order sitting in a home. 
-    * This mini project regarding the restaurant bill is to reduce the number of employees in the restaurant.
+      * It will help the customer by ordering the no of items in food at once and reduces the complexity.
+      * It is made for the user compatible and can order sitting in a home. 
+      * This mini project regarding the restaurant bill is to reduce the number of employees in the restaurant
 
 
-
+  
     # 2.Where
 
-    * This project can be used in many industry level restaurants to reduce the complexity.
-    * This project can be used in the hotels where they can boost their business.
+      * This project can be used in many industry level restaurants to reduce the complexity.
+      * This project can be used in the hotels where they can boost their business.
     
 
 
@@ -46,10 +46,9 @@
 
     # 4.when
 
-
      * It can reduce the time complexity.
      *  In the busy schedule of the employees.
-    *   It can be accessed any time and anywhere.
+     * It can be accessed any time and anywhere.
 
 
 
