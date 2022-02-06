@@ -57,3 +57,28 @@
      * Here, customer can choose their own meal.
      *  In Desired time and their busy schedule customer can affford it.
      * User defined which connects digitally.
+
+
+
+     ## SWOT
+
+     # 1.Strengths
+
+     * Easy for usage for both Customer and Restaurant officials.
+     * The calculation of billing is easy.
+     * GST can be added easily and the price will be updated.
+
+     # 2.Weakness
+     
+     * It's can't be accessed while the updation happening.
+
+     # 3.Opportunities
+
+     * The price or menu can be updated by officials easily.
+     * Efficiency is very high.
+
+
+     # 4.Threats
+
+     * Advanced softwares are available in the market.
+     * Customer cannot go back to change their priority of choosed items.
