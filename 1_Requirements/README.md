@@ -18,10 +18,10 @@
    * The gst will be considered while updating the price.
    * Exit the programme
 
-    ## 4 W's and  1 H's
+## 4 W's and  1 H's
 
-    
-    # 1.why
+
+   # 1.why
 
       * It will help the customer by ordering the no of items in food at once and reduces the complexity.
       * It is made for the user compatible and can order sitting in a home. 
@@ -29,14 +29,14 @@
 
 
   
-    # 2.Where
+   # 2 .Where
 
       * This project can be used in many industry level restaurants to reduce the complexity.
       * This project can be used in the hotels where they can boost their business.
     
 
 
-    # 3.Who
+   # 3.Who
 
       * The project can used by any business organisation which serves the Restaurants with Solutions.
       * The place where they can connect consumer and owner digitally.
@@ -45,7 +45,7 @@
 
 
 
-    # 4.when
+   # 4.when
 
      * It can reduce the time complexity.
      *  In the busy schedule of the employees.
@@ -53,7 +53,8 @@
 
 
 
-    # 5.How
+   # 5.How
+   
      * Here, customer can choose their own meal.
      *  In Desired time and their busy schedule customer can affford it.
      * User defined which connects digitally.
