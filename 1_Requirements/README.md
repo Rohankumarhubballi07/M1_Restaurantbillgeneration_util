@@ -1,22 +1,35 @@
 # IDEA GENERATION.
  ## DESCRIPTION.
  I have developed a code base on the C programming to apply it to the restaurant billing system.And the bill is generated in a such a way that GST will be added to the price and come up with a updated price.
- A user friendly menu will be there with the three parts of meal.
+ A user friendly menu will be there and in associate with this selecting the Order, view Order, adding new member, generating Bill, and with the Discount and Tax, generated report. Restaurant Billing System is a  application based designed to help users maintain & organize Restaurant. This application is easy to use for both beginners & advanced users. It features a familiar and well thought – out, an attractive user interface, combined with strong searching, insertion & deletion capabilities.
 
+## Crucial Features of a Restaurant Billing System
 
- # Requirements.
+ For a restaurant billing system to functional in aright way, it needs certain  features that can help make it a success. And, now that you know what a billing system for a restaurant is all about, here are some key features that make the software a necessity for every restaurant.
+
+##  Storage of Data
+
+ The restaurant billing software will store all the data on the cloud, from customer information to performance reports. Further, cloud storage will allow you to store data without the chance of losing it. Data storage if therefore, quicker and safer through the software.
+
+##  Reports to customers
+
+ A billing system ensures the elimination of excessive manual intervention, and this also applies to the performance reports to keep track of the business’ growth. The software ensures automated report generation that you can view on your dashboard to keep track of how well the business is performing. This reduces the time you would otherwise have to spend.
+
+## Requirements.
 
  ## High level Requirement.
-   *  Customer can choose their own meal.
+   *  Customer can delect their own order and view their order.
    *  Customer can add more items to their existing menu.
    *  The GST will be added to the price and come up with the updated price.
+   *  Discount and tax will be added to it.
+   *  Report will be generated along with the customer name and menu. 
 
    ## Low level Requirement.
    * Customer can choose the meal such as Breakfast Lunch Dinner.
    * A menu will be displayed to choose their item/food.
    * The input will be taken from the user.
    * The gst will be considered while updating the price.
-   * Exit the programme
+   * Exit the programme.
 
 ## 4 W's and  1 H's of the Project.
 
@@ -48,8 +61,9 @@
    # 4.when
 
      * It can reduce the time complexity.
-     *  In the busy schedule of the employees.
+     *  In the busy schedule of the employees,it is used.
      * It can be accessed any time and anywhere.
+     * A billing system in place ensures the elimination of any excess manual intervention.
 
 
 
