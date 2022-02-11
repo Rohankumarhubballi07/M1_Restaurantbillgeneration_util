@@ -9,7 +9,8 @@ struct items
     int quantity;
 };
 
-struct orders{
+struct orders
+{
     char customer[50];
     char date[50];
     int noofItems;
@@ -17,9 +18,9 @@ struct orders{
 };
 // Functions to generate bills
 void generateBilltop(char name[50], char date[30]){
-    printf("\n\n");
+    printf("\n");
     printf("\t   RSH Restaurant");
-    printf("\n\t  -----------------");
+    printf("\n\t  ---------------");
     printf("\nDate:%s",date);
     printf("\nInvoice To: %s",name);
     printf("\n");
@@ -30,51 +31,55 @@ void generateBilltop(char name[50], char date[30]){
     printf("\n---------------------------------------");
     printf("\n\n");
 }
-void generatemainbill(char item[10], int quantity, float total_price){
-    printf("%s\t\t",item);
-    printf("%d\t\t",quantity);
-    printf("%.2f\t\t",quantity * total_price);
+void generatemainbill(char item[10], int quantity, float total_price)
+{
+    printf("%s\t",item);
+    printf("%d\t",quantity);
+    printf("%.2f\t",quantity * total_price);
+    printf("\n");
     printf("\n");
 }
-void generateBillbottom(float total){
+void generateBillbottom(float total)
+{
    printf("\n");
-    float dis = 0.1*total;
+    float dis = 0.3*total;
     float netTotal=total-dis;
-    float cgst=0.09*netTotal,grandTotal=netTotal + 2*cgst;
+    float cgst=0.25*netTotal,grandTotal=netTotal + 3*cgst;
     printf("---------------------------------------\n");
-    printf("Sub Total\t\t\t%.2f",total);
-    printf("\nDiscount @10%s\t\t\t%.2f","%",dis);
+    printf(" Total_price\t\t%.2f",total);
+    printf("\nDiscount is about 30%s\t\t\t%.2f","%",dis);
     printf("\n\t\t\t\t-------");
     printf("\nNet Total\t\t\t%.2f",netTotal);
-    printf("\nCGST @9%s\t\t\t%.2f","%",cgst);
-    printf("\nSGST @9%s\t\t\t%.2f","%",cgst);
+    printf("\nCGST is about 2.5%s\t\t\t%.2f","%",cgst);
+    printf("\nSGST is about 2.5%s\t\t\t%.2f","%",cgst);
     printf("\n-----------------------------------");
-    printf("\nGrand Total\t\t\t%.2f",grandTotal);
+    printf("\nUpdated_price \t\t\t%.2f",grandTotal);
     printf("\n------------------------------------\n");
 }
 int main(){
     float total;
-    int opt,n;
+    int option,n;
     struct orders ord;
     struct orders order;
     char saveBill = 'y',contFlag ='y';
     char name[50];
     FILE *fp;
-//dashboard
-while(contFlag == 'y'){
+    
+while(contFlag == 'y')
+{
 system("cls");
 float total = 0;
 int invoiceFound = 0;
 printf("\t=============RSH-RESTAURANT=============");
 printf("\n\nselect your preferences:\t");
-printf("\n\n1.Production of Invoice");
-printf("\n2.Show all Invoices");
-printf("\n3.Search of al the Invoice");
-printf("\n4.Exit");
-printf("\n\nYour choice of preference:\t");
-scanf("%d",&opt);
+printf("\n 1.Production of Invoice");
+printf("\n 2.Show all Invoices");
+printf("\n 3.Search of all the Invoice");
+printf("\n 4.Exit : No preffered options");
+printf("\n\n  Your choice of preference:\n");
+scanf("%d",&option);
 fgetc(stdin);
-switch(opt){
+switch(option){
     case 1:
     system("cls");
     printf("\nPlease enter the name of the customer:\t");
@@ -138,38 +143,39 @@ fgets(name,50,stdin);
 name[strlen(name)-1] = 0;
 system("cls");
 fp = fopen("RestaurantBill.dat","r");
-printf("\t*****Invoice of %s*****",name);
-while(fread(&order,sizeof(struct orders),1,fp)){
-    float tot = 0;
+printf("\t______Invoice of %s______",name);
+while(fread(&order,sizeof(struct orders),1,fp))
+{
+    float total = 0;
     if(!strcmp(order.customer,name)){
 generateBilltop(order.customer,order.date);
     for(int i=0;i<order.noofItems;i++){
         generatemainbill(order.itm[i].item,order.itm[i].quantity,order.itm[i].total_price);
-        tot +=order.itm[i].quantity * order.itm[i].total_price;
+        total =total+order.itm[i].quantity * order.itm[i].total_price;
     }
-    generateBillbottom(tot);
+    generateBillbottom(total);
     invoiceFound = 1;
     }
     
     }
     if(invoiceFound==0){
-        printf("Sorry the invoice for %s does not exists",name);
+        printf(" The invoice for %s does not exists",name);
     }
 fclose(fp);
 break;
 
 case 4:
-printf("\n\t\t Bye Bye :)\n\n");
+printf("\n\t\t OK Thankyou :)\n\n");
 exit(0);
 break;
  default:
  printf("Sorry invalid option");
  break;
 }
-printf("\nDo you want to perform another operation?[y/n]:\t");
+printf("\nAre you intrested in any other operation?[y/n]:\t");
 scanf("%s",&contFlag);
 }
-printf("\n\t\t Bye Bye :)\n\n");
+printf("\n thank you :)\n\n");
 printf("\n\n");
 return 0;
 }
