@@ -26,6 +26,7 @@
    *  Report will be generated along with the customer name and menu. 
 
   ## Low level Requirement.
+
    * Customer can choose the meal such as Breakfast Lunch Dinner.
    * A menu will be displayed to choose their item/food.
    * The input will be taken from the user.
@@ -41,16 +42,16 @@
    * It is made for the user compatible and can order sitting in a home. 
    * This mini project regarding the restaurant bill is to reduce the number of employees in the restaurant
 
-
-  
-  # 2 .Where
+##
+  # 2.Where
 
     * This project can be used in many industry level restaurants to reduce the complexity.
     * This project can be used in the hotels where they can boost their business.
     
 
 
-  # 3.Who
+##
+ # 3.Who
 
     * The project can used by any business organisation which serves the Restaurants with Solutions.
     * The place where they can connect consumer and owner digitally.
@@ -58,6 +59,7 @@
 
 
 
+##
 
   # 4.when
 
@@ -67,6 +69,7 @@
      * A billing system in place ensures the elimination of any excess manual intervention.
 
 
+##
 
   # 5.How
 
