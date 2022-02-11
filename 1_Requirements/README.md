@@ -80,7 +80,7 @@
 
 
   ## SWOT Analysis.
-
+##
   # 1.Strengths
 
     * Easy for usage for both Customer and Restaurant officials.
