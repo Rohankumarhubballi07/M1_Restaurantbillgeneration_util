@@ -1,9 +1,10 @@
 # IDEA GENERATION.
+
  ## DESCRIPTION.
  I have developed a code base on the C programming to apply it to the restaurant billing system.And the bill is generated in a such a way that GST will be added to the price and come up with a updated price.
  A user friendly menu will be there and in associate with this selecting the Order, view Order, adding new member, generating Bill, and with the Discount and Tax, generated report. Restaurant Billing System is a  application based designed to help users maintain & organize Restaurant. This application is easy to use for both beginners & advanced users. It features a familiar and well thought – out, an attractive user interface, combined with strong searching, insertion & deletion capabilities.
 
-## Crucial Features of a Restaurant Billing System
+##  Features
 
  For a restaurant billing system to functional in aright way, it needs certain  features that can help make it a success. And, now that you know what a billing system for a restaurant is all about, here are some key features that make the software a necessity for every restaurant.
 
