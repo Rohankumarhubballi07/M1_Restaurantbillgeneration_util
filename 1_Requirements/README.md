@@ -83,9 +83,9 @@
 ##
   # 1.Strengths
 
-    * Easy for usage for both Customer and Restaurant officials.
-    * The calculation of billing is easy.
-    * GST can be added easily and the price will be updated.
+   * Easy for usage for both Customer and Restaurant officials.
+   * The calculation of billing is easy.
+   * GST can be added easily and the price will be updated.
 ##
   # 2.Weakness
 
