@@ -1016,7 +1016,7 @@ int UnityTestMatches(void);
 #define UNITY_TEST_ASSERT_FLOAT_IS_NAN(actual, line, message)                                    UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_NAN)
 #define UNITY_TEST_ASSERT_FLOAT_IS_DETERMINATE(actual, line, message)                            UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_DET)
 #define UNITY_TEST_ASSERT_FLOAT_IS_NOT_INF(actual, line, message)                                UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_NOT_INF)
-#define UNITY_TEST_ASSERT_FLOAT_IS_NOT_NEG_INF(actual, line, message)                            UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_NOT_NEG_INF)
+#define UNITY_TEST_ASSERT_FLOAT_IS_NOT_NEG_INF(actual, line, message)                           UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_NOT_NEG_INF)
 #define UNITY_TEST_ASSERT_FLOAT_IS_NOT_NAN(actual, line, message)                                UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_NOT_NAN)
 #define UNITY_TEST_ASSERT_FLOAT_IS_NOT_DETERMINATE(actual, line, message)                        UnityAssertFloatSpecial((UNITY_FLOAT)(actual), (message), (UNITY_LINE_TYPE)(line), UNITY_FLOAT_IS_NOT_DET)
 #endif
